@@ -1,0 +1,21 @@
+{
+  "name": "dune-github-tracker",
+  "version": "0.1.0",
+  "description": "Dune — AI-powered GitHub contribution tracker. Connects to a repo, reads every commit and PR per person, and hands out a credit score based on quality + quantity.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "node src/realtimeWatcher.js",
+    "webhook": "node src/webhookServer.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.120.0",
+    "@octokit/rest": "^22.0.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
