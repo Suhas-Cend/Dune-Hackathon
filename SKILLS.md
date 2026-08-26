@@ -8,7 +8,7 @@ Every score this skill produces is an **analytical estimate**, built from whatev
 
 ## Operating constraints — read this first
 
-- **This is a read-only analysis skill.** Never run commands that create, modify, or delete commits, branches, tags, pull requests, or history — no `git commit`, `git push`, `git merge`, `git rebase`, `git reset --hard`, `git branch -d`, `git tag -d`, `gh pr merge`, `gh pr close`, force-pushes, or filter-branch/history rewrites — even when a step below would be easier with one. Stick to read operations: `git log`, `git show`, `git diff`, `git blame`, `git shortlog`, `gh pr list` / `gh pr view`, read-only `gh api` calls, and the like.
+- **This is a read-only analysis skill.** Never run commands that create, modify, or delete commits, branches, tags, pull requests, or history — no `git commit`, `git push`, `git merge`, `git rebase`, `git reset --hard`, `git branch -d`, `git tag -d`, `gh pr merge`, `gh pr close`, force-pushes, or filter-branch/history rewrites without permission, you may make changes once granted. Stick to read operations: `git log`, `git show`, `git diff`, `git blame`, `git shortlog`, `gh pr list` / `gh pr view`, read-only `gh api` calls, and the like.
 - If someone separately asks you to act on the repository (merge something, tag a release, clean up branches), treat that as its own explicitly authorized task, confirmed on its own terms — not something this skill does as a side effect of analysis.
 - This analysis supports human judgment; it doesn't replace it. It can't see meetings, mentoring, design discussions, incident response, or anything else that never touched the repository. Say so in the output rather than letting a tidy report imply it's the whole picture (see "Responsible use" at the end).
 
