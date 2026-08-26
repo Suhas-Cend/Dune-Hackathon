@@ -179,7 +179,7 @@ Give every individual analysis a stated confidence, with a specific reason, not 
 ### Individual developer analysis
 Produce one of these per developer, using this structure:
 
-```markdown
+
 ## {Developer name}
 
 **Overall contribution score/credits:** {Tier label} ({n}/5)
@@ -214,12 +214,12 @@ Produce one of these per developer, using this structure:
 
 ### Evidence supporting the assessment
 - {commit SHAs, PR numbers, file paths, or line ranges backing the claims above}
-```
+
 
 ### Team-level analysis
 Produce exactly one of these after all individual analyses:
 
-```markdown
+
 ## Team contribution overview
 
 ### Overall team contribution summary
@@ -244,7 +244,7 @@ Produce exactly one of these after all individual analyses:
 
 ### Areas where contribution data is ambiguous
 - {what's unclear and why, tied back to the edge cases and confidence notes above}
-```
+
 
 ## Responsible use
 
