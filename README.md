@@ -11,7 +11,7 @@
 <br/>
 
 [![Hackathon](https://img.shields.io/badge/HACKATHON-WeMakeDevs-F59E0B?style=for-the-badge)](https://wemakedevs.org)
-[![Model](https://img.shields.io/badge/AI_CORE-GPT--4o--mini-F59E0B?style=for-the-badge&logo=openai)](https://github.com)
+[![Model](https://img.shields.io/badge/AI-Claude-F59E0B?style=for-the-badge&logo=openai)](https://github.com)
 [![Engine](https://img.shields.io/badge/INGESTION-GitHub_API-F59E0B?style=for-the-badge&logo=github)](https://github.com)
 [![Status](https://img.shields.io/badge/BUILD-STABLE%20MVP-10B981?style=for-the-badge)](https://github.com)
 
@@ -102,14 +102,17 @@
 
 # 🛠️ Tech Stack
 
-| Layer | Technologies & Ecosystem |
-| :--- | :--- |
-| ### **Frontend Interface** | ![Next.js](https://img.shields.io/badge/Next.js%2014-000000?style=for-the-badge&logo=next.js) ![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
-| ### **Core Backend & Ingestion** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Python 3.11](https://img.shields.io/badge/Python%203.11-3776AB?style=for-the-badge&logo=python&logoColor=white) ![GitHub API](https://img.shields.io/badge/GitHub%20API-181717?style=for-the-badge&logo=github) |
-| ### **AI & Scoring Orchestration** | ![GPT-4o](https://img.shields.io/badge/GPT--4o--mini-412991?style=for-the-badge&logo=openai&logoColor=white) ![Claude 3.5](https://img.shields.io/badge/Claude%203.5%20Sonnet-D97706?style=for-the-badge&logo=anthropic&logoColor=white) |
-| ### **Cloud & Persistence** | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) |
+<div align="center">
 
----
+![Trueforge](https://img.shields.io/badge/Trueforge-EF4444?style=for-the-badge&logoColor=white)
+![SKILLS.md](https://img.shields.io/badge/SKILLS.md-10B981?style=for-the-badge&logo=readme&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![JSON](https://img.shields.io/badge/JSON-1F2937?style=for-the-badge&logo=json&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97706?style=for-the-badge&logo=anthropic&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+
 
 # 🚀 Quickstart
 
@@ -180,16 +183,57 @@ uvicorn main:app --reload --port 8000
 
 ---
 
-# 👥 Team
+# 👥 The Engineering Squad
 
-<div align="center">
+---
 
-| ![Lead Architect](https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=180&h=180&q=80) | ![Fullstack Engineer](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=180&h=180&q=80) | ![Systems Engineer](https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=180&h=180&q=80) |
-| :---: | :---: | :---: |
-| ### **Lead Architect**<br/>*AI Scoring & LLM*<br/>[GitHub](#) • [LinkedIn](#) | ### **Fullstack Engineer**<br/>*Backend & GitHub API*<br/>[GitHub](#) • [LinkedIn](#) | ### **Systems Engineer**<br/>*Frontend Dashboard*<br/>[GitHub](#) • [LinkedIn](#) |
+### 👑 **Suhas — Full-Stack & Systems Architecture Lead**
+<b>Architected agent capability schemas (<code>SKILLS.md</code>), coordinated backend logic, and co-developed the client interface.</b>
 
 <br/>
 
-## **Built with passion for WeMakeDevs Agent Harness Hackathon 🏆**
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Suhas-Cend)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suhaskusumba)
+
+---
+
+### ⚡ **Shashank — Core Backend Engineer**
+<b>Engineered server-side JavaScript runtime services, data transformation pipelines, and core API endpoints.</b>
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shashanksharma-vscode)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pappu-shashank-aniruddh-0a6521423/)
+
+---
+
+### 🎨 **Bhavmanyu — Frontend & UI/UX Systems Developer**
+<b>Authored the UI specification schema (<code>UI.md</code>), structured component layouts, and built responsive web interfaces.</b>
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bhavamanyu)
+
+---
+
+### 📝 **Harshit — Product Strategy & Technical Documentation Lead**
+<b>Led product positioning, presentation architecture, repository documentation (<code>README.md</code>), and narrative design.</b>
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+
+---
+
+<div align="center">
+
+🏆 **Built with passion for WeMakeDevs Agent Harness Hackathon**
+
+<br/>
+
+---
+
+
 
 </div>
