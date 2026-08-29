@@ -1,0 +1,37 @@
+{
+  "name": "dune-github-tracker",
+  "version": "0.1.0",
+  "description": "Dune — AI-powered GitHub contribution tracker. Connects to a repo, reads every commit and PR per person, and hands out a credit score based on quality + quantity.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "node src/realtimeWatcher.js",
+    "webhook": "node src/webhookStandalone.js",
+    "server": "node src/server.js",
+    "postinstall": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:deploy": "prisma migrate deploy",
+    "prisma:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.120.0",
+    "@octokit/rest": "^22.0.1",
+    "@prisma/client": "^6.2.0",
+    "bcryptjs": "^3.0.0",
+    "connect-pg-simple": "^10.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.4.0",
+    "express-session": "^1.18.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
