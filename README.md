@@ -83,7 +83,7 @@
 
 <br/>
 
-[![Watch Demo](https://img.shields.io/badge/▶_WATCH_WALKTHROUGH_VIDEO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
+[![Watch Official Video](https://img.shields.io/badge/%E2%96%B6_WATCH_TRAILER-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/JuXcMA9nJgE)
 [![Launch Live](https://img.shields.io/badge/🚀_LAUNCH_LIVE_DASHBOARD-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
 </div>
